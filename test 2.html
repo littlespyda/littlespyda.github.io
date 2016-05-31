@@ -1,0 +1,49 @@
+	
+<html>
+	<head>
+
+		<style type="text/css">
+		
+			body { font-family:Verdana; }
+			div#back_glob{ background-color:white; border: 1px solid #25b2d5; width: 350px; margin:0 auto; }
+			input{ display: block; margin:10px; }
+			div#back_header{ background-color: 25b2d5; text-align: center; font-size: 22px; font-weight: bold; color: white; padding: 20px; } 
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script>
+			var passord = "1234";
+			var bruker = "hei";
+			function klikker(){
+				alert("Hei");
+				window.location.href = "http://www.google.com/";
+			}
+			function loggInn(){
+				var username = $('.username_name').val();
+				var pwd = $('.pwd').val();
+				if(username == bruker && pwd == passord){
+					
+				}
+				else {
+					alert("Feil brukernavn eller passord");}
+			}
+			
+		</script>
+	</head>
+	<body>	
+
+		<div id="back_glob">
+			<div id="back_header">
+			Login
+			</div>	
+				
+			<div id="back_form">
+
+				<form method="POST">
+					<input class="username_name" type="text" name="username" placeholder="username" />
+					<input class="pwd" type="password" name="pass" placeholder="password" />
+					<input onclick="klikker()" onclick="loggInn()" type="submit" name="valid" value="Login" />
+				</form>	
+			</div>
+		</div>		
+	</body>
+</html>

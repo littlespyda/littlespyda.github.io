@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="shortcut icon" type="image/x-icon" href="Hodei.ico" />
+	<title>PHOTO GALLERY</title>
+
+	<style>
+		body {
+			background-color: #f0f0f0;
+			color: #3f3f3f;
+			text-transform: none;
+			letter-spacing: 1px;
+			font-family: Raleway;
+			font-weight: 300;
+			text-decoration: none;
+		}
+		
+		ul {
+			list-style-type: none;
+			margin: auto;
+			width: 60%;
+			text-transform: uppercase;
+			padding: 0;
+			overflow: hidden;
+			border: 1px solid #e7e7e7;
+			background-color: #f3f3f3;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: #666;
+			text-align: center;
+			padding: 14px 16px;
+		}
+
+		li a:hover:not(.active) {
+			background-color: #ddd;
+		}
+
+		li a.active {
+			color: white;
+			background-color: #4CAF50;
+		}
+			
+		.title {
+			background-color: #ffffff;
+			padding: 5px;
+			right: 0px;
+			border: 1px solid #25b2d5;
+			margin: auto;
+			width: 60%;
+			text-align: center;
+			font-weight: bold;
+			width: 350px;
+		}	
+		div.img {
+			margin: 5px;
+			border: 1px solid #ccc;
+			float: left;
+			width: 180px;
+		}
+
+		div.img:hover {
+			border: 1px solid #777;
+		}
+
+		div.img img {
+			width: 100%;
+			height: auto;
+		}
+
+		div.desc {
+			padding: 15px;
+			text-align: left;
+		}
+		.photos {
+			padding: 40px;
+			right: 0px;
+			margin: auto;
+			width: 60%;
+			text-align: center;
+		}
+		
+		
+	
+	</style>
+
+</head>
+<body>
+
+		<img src="Hode.jpg" style="background-color: #f0f0f0; display: block; margin-left: auto; margin-right: auto;">
+
+	<!--Her starter den øverste headeren-->
+		<ul>
+				<!--Hjemmknappen-->
+			<li><a href="main.html" style="text-decoration: none;">Home</a></li>
+			
+				<!--"om meg"-knappen-->
+			<li><a href="About me.html" style="text-decoration: none;">About me</a></li>
+			
+				<!--Blog og nyheter-->
+			<li><a href="Blog.html" style="text-decoration: none;">Blog</a></li>
+			
+				<!--Bilde gallery-->
+			<li><a href="Photo gallery.html" >Photo Gallery</a></li>
+			
+				<!--sosial netverk-knappene-->
+				<!--facebook-->
+			<li><a href="https://www.facebook.com/Toby-Mellado-476744799197124" style="text-decoration: none;">Facebook</a></li>
+			
+				<!--instagram-->
+			<li><a href="https://www.instagram.com/little_spyda/" style="text-decoration: none;">Instagram</a></li> 
+			
+				<!--vine-->
+			<li><a href="vine.html" style="text-decoration: none;">Vine</a></li>
+		</ul>
+	<!--Her slutter Headeren-->
+	
+	<div class="title">
+		<h1>PICTURE GALLERY</h1>
+		<p>A collection of photos taken by or of me</p>
+	</div>
+	
+	<div class="photos">
+		<div class="img">
+		  <a target="_blank" href="images/bilde 1.jpg">
+			<img src="images/bilde 1.jpg" alt="Bilde 1" width="300" height="200">
+		  </a>
+		  <div class="desc">Intagram profile pic</div>
+		</div>
+
+		<div class="img">
+		  <a target="_blank" href="images/bilde 2.jpg">
+			<img src="images/bilde 2.jpg" alt="Bilde 2" width="300" height="200">
+		  </a>
+		  <div class="desc">Snapchat photo (confimation 2016).</div>
+		</div>
+
+		<div class="img">
+		  <a target="_blank" href="images/bilde 3.jpg">
+			<img src="images/bilde 3.jpg" alt="Bilde 3" width="300" height="200">
+		  </a>
+		  <div class="desc">PICTURE of moi</div>
+		</div>
+
+		<div class="img">
+		  <a target="_blank" href="images/bilde 4.jpg">
+			<img src="images/bilde 4.jpg" alt="Bilde 4" width="300" height="200">
+		  </a>
+		  <div class="desc">Another picture of moi</div>
+		</div>
+		
+		<div class="img">
+		  <a target="_blank" href="images/bilde 5.jpg">
+			<img src="images/bilde 5.jpg" alt="Bilde 5" width="300" height="200">
+		  </a>
+		  <div class="desc">Last example of moi</div>
+		</div>
+		
+		
+	</div>
+</body>
+</html>
